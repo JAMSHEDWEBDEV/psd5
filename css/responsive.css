@@ -1,0 +1,262 @@
+/*// X-Small devices (portrait phones, less than 576px)*/
+/*// No media query for `xs` since this is the default in Bootstrap*/
+
+@media (min-width: 320px) and (max-width: 575px){
+
+/*navigation part responsive code start*/
+
+.navbar-nav{
+	margin-top: 15px;
+}
+.navbar-nav .nav-item .nav-link{
+	padding: 5px 0;
+	text-align: center;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	background-color: white;
+	color: black;
+}
+
+/*navigation part responsive code end*/
+
+/*banner part responsive code start*/
+
+.banner_overlay h1{
+	font-size: 20px;
+	margin-top: 35px;
+}
+.banner_overlay p{
+	font-size: 15px;
+}
+.btn button{
+	transition: all linear .30s;
+}
+.btn button:hover{
+	transform: rotate(360deg);
+	transition: all linear .30s;
+}
+.btn button:focus{
+	background-color: white;
+	color: red;
+}
+
+/*banner part responsive code end*/
+
+/*gallery part responsive code start*/
+
+.gallery_image{
+	margin-bottom: 10px;
+}
+
+
+/*gallery part responsive code end*/
+
+/*team part responsive code start*/
+
+.team_content{
+	text-align: center;
+}
+.team_icon{
+	text-align: center;
+}
+/*team part responsive code end*/
+
+/*testimonial part responsive code start*/
+
+.carousel-indicators {
+	margin:15px 0 0 120px;
+}
+
+/*testimonial part responsive code end*/
+
+/*download part responsive code start*/
+
+.download_btn button{
+	transition: all linear .5s
+}
+.download_btn button:hover{
+	background-color: bisque;
+	color: indigo;
+	transition: all linear .5s
+}
+
+/*download part responsive code end*/
+
+/*footer part responsive code start*/
+
+.copy_content p{
+	font-size: 12px;
+}
+
+/*footer part responsive code end*/
+
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+/*navigation part responsive code start*/
+
+
+.navbar-nav{
+	margin-top: 5px;
+}
+.navbar-nav .nav-item .nav-link{
+	padding: 5px 0;
+	text-align: center;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	background-color: teal;
+}
+
+/*navigation part responsive code end*/
+
+/*banner part responsive code start*/
+
+.banner_overlay h1{
+	font-size: 40px;
+	margin-top: 30px;
+}
+.banner_overlay p{
+	font-size: 12px;
+}
+.btn button{
+	transition: all linear .40s;
+}
+.btn button:hover{
+	background-color: transparent;
+	transition: all linear .40s;
+	border:1px solid red;
+}
+
+/*banner part responsive code end*/
+
+/*gallery part responsive code start*/
+
+.gallery_image{
+	margin-bottom: 10px;
+}
+
+/*gallery part responsive code end*/
+
+/*testimonial part responsive code start*/
+
+.carousel-indicators {
+	margin:15px 0 0 120px;
+}
+
+.download_btn button{
+      transition: all linear .30s;
+}
+.download_btn button:hover{
+     background-color: gray;
+     transition: all linear .30s;
+     
+}
+
+
+/*testimonial part responsive code end*/
+
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+/*navigation part responsive code start*/
+
+.navbar-nav{
+	margin-top: 10px;
+}
+.navbar-nav .nav-item .nav-link{
+	padding: 4px 0;
+	text-align: center;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	background-color: gray;
+}
+
+/*navigation part responsive code end*/
+
+/*banner part responsive code start*/
+
+.banner_overlay h1{
+	margin-top: 40px;
+	font-size: 45px;
+}
+.banner_overlay p{
+	font-size: 25px;
+}
+.btn button{
+	transition: all linear .4s;
+}
+.btn button:hover{
+	background-color: black;
+	transition: all linear .4s;
+}
+
+/*banner part responsive code end*/
+
+/*team part responsive code start*/
+
+.team_content p{
+	font-size: 10px;
+}
+.team_icon i{
+	height: 45px;
+	width: 45px;
+	line-height: 45px;
+	text-align: center;
+}
+
+/*team part responsive code end*/
+
+/*testimonial part responsive code start*/
+
+.carousel-indicators {
+	margin-left: 300px;
+}
+
+/*testimonial part responsive code end*/
+
+/*download part responsive code start*/
+
+.download_btn button{
+	transition: all linear .5s;
+}
+.download_btn button:hover{
+	background-color: blueviolet;
+	transition: all linear .5s;
+}
+
+/*download part responsive code end*/
+
+
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+
+
+}
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+
+
+
+
+}
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+
+@media (min-width: 1400px) and (max-width: px) {...}
